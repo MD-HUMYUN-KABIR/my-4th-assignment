@@ -86,7 +86,7 @@ function findingBadData(ages){
 
 
 /////////////////////////////////////
-// problem NO: 04
+// problem NO: 05
 //3 numbers are taken as input in this function and they are multiplied by 21,32,43 respectively and if their total sum is equal to or more than 2000 then 2000 is subtracted from that sum and given as result. Otherwise the total is given as the result
 /////////////////////////////////////
 
