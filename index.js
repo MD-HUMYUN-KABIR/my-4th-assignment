@@ -9,9 +9,9 @@ function mindGame(number){
     };
     const multiResult = number * 3;
     const SumResult = multiResult + 10;
-    const devResult = SumResult / 2;
-    const subResult = devResult - 5;
-    return subResult;
+    const divResult = SumResult / 2;
+    const finalResult = divResult - 5;
+    return finalResult;
 }
 
 // console.log(mindGame(true));
@@ -97,13 +97,13 @@ if(typeof gemsF1 !== 'number' || typeof gemsF2 !== 'number' || typeof gemsF3 !==
     const multiF1Gems = gemsF1 * 21;
     const multiF2Gems = gemsF2 * 32;
     const multiF3gems = gemsF3 * 43;
-    const totalGemsSum = multiF1Gems + multiF2Gems + multiF3gems;
-    if(totalGemsSum >= 2000){
-        return totalGemsSum - 2000;
+    const totalDiamond = multiF1Gems + multiF2Gems + multiF3gems;
+    if(totalDiamond >= 2000){
+        return totalDiamond - 2000;
     }
     else{
-        return totalGemsSum;
+        return totalDiamond;
     }
 }
 
-console.log(gemsToDiamond(false, 5, 1));
+// console.log(gemsToDiamond(false, 5, 1));
